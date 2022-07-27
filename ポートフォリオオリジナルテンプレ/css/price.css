@@ -1,0 +1,74 @@
+body {
+  background-color: #b1adad;
+  color: #333;
+}
+
+h2 {
+  position: relative;
+  color: black;
+  font-family: HeadLineA;
+  letter-spacing: 11.25px;
+  font-size: 65px;
+  text-align: center;
+}
+
+h2 span {
+  position: absolute;
+  font-size: 20px;
+  font-family: Hiragino Sans;
+  letter-spacing: 1px;
+  color: #286ed3;
+  bottom: -5px;
+  margin-left: -100px;
+}
+.inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #fff;
+}
+
+table th,
+table td {
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ccc;
+}
+
+section p {
+  text-align: center;
+}
+
+.btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 25px;
+  margin: 30px auto;
+  background: #286ed3;
+  font-family: Hiragino Mincho ProN;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+  table th,
+  table td {
+    font-size: 12px;
+  }
+}
